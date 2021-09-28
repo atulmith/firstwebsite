@@ -1,0 +1,66 @@
+@media screen and (max-width:1000px){
+
+    body{
+        background-color: rgb(243, 219, 219);
+    }
+
+    #navbar{
+        flex-direction: column;
+       height: 100px;
+    }
+
+    #navbar ul li{
+        list-style: none;
+        font-size: 1.2rem;
+        
+    }
+
+    #home{
+        height: 200px;
+
+    }
+
+    #home p{
+
+        padding: 10px 10px 10px  10px;
+        
+        text-align: center;
+
+    }
+
+    #services{
+        flex-direction: column;
+        
+    }
+
+    #client-section{
+
+        height: 100%;
+
+    }
+
+    #clients{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:600px){
+
+.footnav{
+    flex-direction: column;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1rem;
+    
+}
+
+}
